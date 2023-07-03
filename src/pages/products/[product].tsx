@@ -43,7 +43,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
             title: 'Samsung X58 bla bla bla',
             description: 'This is a production decription for samsung bla bal bla',
             price: '8000',
-            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/magenta-tiger-ecommerce-d81fd.appspot.com/o/imagesmmmm.jpg?alt=media&token=4ce3ac22-4c98-4078-bfd3-5649908d691d',
+            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/dev-testing-89cf3.appspot.com/o/imagesmmmm.jpg?alt=media&token=d4016936-1c97-487c-91d9-4f1225e59086',
             metadata: {
                 author: {
                     name: 'string',
