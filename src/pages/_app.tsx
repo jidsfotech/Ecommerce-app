@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta name="msapplication-TileColor" content="#AA96DA" />
         <meta name="theme-color" content="#ffffff" />
-        <title>TigerTrade</title>
+        <title>Jankara Market</title>
       </Head>
       <Component {...pageProps} />
     </>

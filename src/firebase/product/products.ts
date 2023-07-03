@@ -16,6 +16,7 @@ import { db, storage } from '../firebase';
 const user = auth.currentUser;
 
 export const createProduct = async (product: Product, images: File[]) => {
+  console.log("Adding new products...")
   if (user) {
     try {
       const productsRef = collection(db, 'products');
@@ -52,8 +53,10 @@ export const createProduct = async (product: Product, images: File[]) => {
           });
         });
       }
+      console.log("Successfully Added new product")
     } catch (err) {
       throw err;
     }
   }
+  console.log("Invalid user credencials...")
 };
